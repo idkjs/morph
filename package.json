@@ -19,7 +19,7 @@
     "docs-path": "esy echo #{self.target_dir}/default/_doc/_html"
   },
   "dependencies": {
-    "@esy-ocaml/reason": "^3.6.0",
+    "@opam/reason": "*",
     "@opam/dune": "^2.5.0",
     "@opam/fmt": "*",
     "@opam/graphql-lwt": "^0.13.0",
@@ -41,7 +41,7 @@
     "ocaml": "~4.10.0"
   },
   "devDependencies": {
-    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam#ad1e4e7ab7b168a6d4861778deae0008bb973376",
+    "@opam/ocaml-lsp-server": "*",
     "@opam/mdx": "*",
     "@opam/merlin": "*",
     "@opam/mtime": "*",
